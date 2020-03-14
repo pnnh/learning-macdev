@@ -9,10 +9,14 @@
 import Cocoa
 
 class Document: NSDocument {
+    
+    @objc dynamic var employees: [Employee] = []
+@objc dynamic   var text: String? = "Hello222"
 
     override init() {
         super.init()
         // Add your subclass-specific initialization here.
+        self.employees = [Employee()]
     }
 
     override class var autosavesInPlace: Bool {

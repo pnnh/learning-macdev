@@ -12,6 +12,7 @@
 		4654BBDF2415296D00179390 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4654BBDD2415296D00179390 /* Document.xib */; };
 		4654BBE12415296F00179390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4654BBE02415296F00179390 /* Assets.xcassets */; };
 		4654BBE42415296F00179390 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4654BBE22415296F00179390 /* MainMenu.xib */; };
+		4654BBED2415298600179390 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654BBEC2415298600179390 /* Employee.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4654BBE32415296F00179390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		4654BBE52415296F00179390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4654BBE62415296F00179390 /* RaiseMan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RaiseMan.entitlements; sourceTree = "<group>"; };
+		4654BBEC2415298600179390 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				4654BBE22415296F00179390 /* MainMenu.xib */,
 				4654BBE52415296F00179390 /* Info.plist */,
 				4654BBE62415296F00179390 /* RaiseMan.entitlements */,
+				4654BBEC2415298600179390 /* Employee.swift */,
 			);
 			path = RaiseMan;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4654BBDC2415296D00179390 /* Document.swift in Sources */,
+				4654BBED2415298600179390 /* Employee.swift in Sources */,
 				4654BBDA2415296D00179390 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
